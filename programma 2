@@ -1,0 +1,12 @@
+
+A=input('Δώσε πίνακα Α: '); 
+[m,n]=size(A);
+if m==n
+B=A^2;
+end
+if det(A)~=0 
+    C=inv(A);
+end
+if m>n || m<n 
+    B=A.^2;
+end
